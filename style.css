@@ -1,0 +1,11 @@
+
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 2px solid lightgray;
+    padding: 0px 15px;
+}
+thead{
+    border: 2px solid lightgray;
+}
