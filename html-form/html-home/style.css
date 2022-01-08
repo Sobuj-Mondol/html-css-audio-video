@@ -1,0 +1,31 @@
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+nav li:hover{
+    background-color: dimgray;
+    border-radius: 5px;
+}
+nav li a:hover{
+    color: #fff;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 2px solid lightgray;
+    padding: 0px 15px;
+}
+thead{
+    border: 2px solid lightgray;
+}
