@@ -1,15 +1,16 @@
-nav ul{
+nav > ul{
     display: flex;
 }
 nav li{
     list-style: none;
     margin-left: 20px;
     font-weight: 700;
+    font-size: 20px;
     padding: 10px 20px;
 }
 nav li:hover{
     background-color: dimgray;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 nav li a:hover{
     color: #fff;
@@ -17,6 +18,13 @@ nav li a:hover{
 nav li a{
     text-decoration: none;
     color: black;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+}
+nav > ul > li:hover>ul{
+    display: block;
 }
 
 table{
